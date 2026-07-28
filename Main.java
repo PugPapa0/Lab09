@@ -55,8 +55,8 @@ public class Main
 	 */
 	public static int calcVehicleEmissions(double mpg, double avgMilesDriven)
 	{
-		double poundsCO2PerGallon = 19.6;
-		double nonCO2Ratio = 1.01;
+		double poundsCO2PerGallon = 19.64;
+		double nonCO2Ratio = 1.012;
 
 		double emissions = (1 / mpg) * avgMilesDriven
 				* poundsCO2PerGallon * nonCO2Ratio;
